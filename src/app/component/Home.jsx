@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="mt-[150px] relative flex-col-1 md:flex items-center"
+      className="mt-[150px] overflow-hidden relative flex-col-1 md:flex items-center"
     >
       <div className="max-w-[450px] md:max-w-[600px] space-y-[20px] md:space-y-[30px] mt-[100px]">
         <h1 className="text-4xl lg:text-5xl text-center md:text-start">
@@ -26,7 +26,7 @@ const Home = () => {
           maxim.
         </p>
         <div>
-          <div className="flex items-center justify-around w-[150px] md:w-[200px] h-[50px] md:h-[60px]  mb-2 shadow-2xl rounded-3xl">
+          <div className="flex items-center justify-around w-[150px] md:w-[200px] h-[50px] md:h-[60px]  mb-4 shadow-2xl rounded-3xl">
             <div className=" w-[50px] h-[50px] cursor-pointer flex items-center justify-center">
               <Image
                 src="/fb.png"
@@ -48,7 +48,7 @@ const Home = () => {
             </div>
           </div>
           <Link href="#contact" className="scroll-smooth">
-            <button className="bg-green-400 shadow-2xl rounded-xl p-2 font-extrabold w-[200px] h-[50px] cursor-pointer hover:scale-110">
+            <button className="bg-green-400 shadow-2xl rounded-xl p-2 font-extrabold w-[200px] h-[50px] cursor-pointer hover:scale-110 animate-bounce">
               CONTACT
             </button>
           </Link>

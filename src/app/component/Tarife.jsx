@@ -64,16 +64,6 @@ const Tarife = () => {
                   Găsirea Sensului și Direcției
                 </p>
               </div>
-              <div className="flex items-center justify-center space-x-[10px]">
-                <Image
-                  src="/payment.png"
-                  width={500}
-                  height={500}
-                  alt="family"
-                  className="rounded-3xl h-[50px] w-[50px]  "
-                />
-                <h1 className="text-3xl font-extrabold">100 RON</h1>
-              </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center text-lg bg-blue-700 rounded-3xl w-[400px] h-auto gap-4 p-2 shadow-2xl border-4 border-white/50">
@@ -122,16 +112,6 @@ const Tarife = () => {
                   Să gestioneze mai bine frustrarea, furia și alte emoții
                   negative;
                 </p>
-              </div>
-              <div className="flex items-center justify-center space-x-[10px]">
-                <Image
-                  src="/payment.png"
-                  width={500}
-                  height={500}
-                  alt="family"
-                  className="rounded-3xl h-[50px] w-[50px]  "
-                />
-                <h1 className="text-3xl font-extrabold">150 RON</h1>
               </div>
             </div>
           </div>
@@ -196,16 +176,6 @@ const Tarife = () => {
                 <FaCheckSquare className="text-3xl text-white mr-4 border-gray-500/10 rounded-2xl border-2" />
                 <p className="text-center w-[250px]">Infidelitate și divorț</p>
               </div>
-              <div className="flex items-center justify-center space-x-[10px]">
-                <Image
-                  src="/payment.png"
-                  width={500}
-                  height={500}
-                  alt="family"
-                  className="rounded-3xl h-[50px] w-[50px]  "
-                />
-                <h1 className="text-3xl font-extrabold">250 RON</h1>
-              </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center text-lg bg-green-500 rounded-3xl w-[400px] h-auto gap-4 p-2 shadow-2xl border-4 border-white/50">
@@ -267,16 +237,6 @@ const Tarife = () => {
                   Să învețe tehnici eficiente de disciplinare a copilului fără
                   pedepse fizice;
                 </p>
-              </div>
-              <div className="flex items-center justify-center space-x-[10px]">
-                <Image
-                  src="/payment.png"
-                  width={500}
-                  height={500}
-                  alt="family"
-                  className="rounded-3xl h-[50px] w-[50px]  "
-                />
-                <h1 className="text-3xl font-extrabold">250 RON</h1>
               </div>
             </div>
           </div>
