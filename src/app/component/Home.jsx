@@ -16,11 +16,11 @@ const Home = () => {
           id="home"
           className="flex flex-col md:flex-row items-center justify-center absolute top-[5rem] md:top-[10rem] gap-6"
         >
-          <div className=" rounded-2xl border-8 border-white/30 drop-shadow-2xl bg-[#b7c1b0] p-2 mt-[5rem] md:mt-0 md:p-10 max-w-[450px] md:max-w-[500px] space-y-[20px] text-center">
-            <h1 className="text-5xl text-center md:text-7xl md:text-start font-extrabold">
+          <div className=" rounded-2xl w-[20rem] md:w-[40rem] border-8 border-white/30 drop-shadow-2xl bg-[#b7c1b0] p-2 mt-[5rem] md:mt-0 md:p-10 max-w-[450px] md:max-w-[500px] md:space-y-[20px] text-center">
+            <h1 className="text-3xl text-center md:text-7xl md:text-start font-extrabold">
               Alina Bradu
             </h1>
-            <p className="text-lg p-2 md:p-0 text-center font-semibold md:text-start">
+            <p className="text-sm p-6 md:text-lg md:p-0 text-center font-semibold md:text-start">
               Înainte de toate sunt OM și mamă. Cred în pașii mici, insist pe
               prezent, privesc rareori in urma iar viitorul crede că va fi ceea
               ce creez acum. Nu sunt cu nimic mai specială decât tine. Nu poseda
