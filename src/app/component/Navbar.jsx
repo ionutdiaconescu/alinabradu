@@ -8,9 +8,9 @@ import { IoCloseCircleSharp } from "react-icons/io5";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
-    <div className=" w-full  fixed top-0 left-0 right-0 z-10">
+    <div className=" w-full  fixed top-0 left-0 right-0 z-10 ">
       <div className=" justify-between px-4 mx-auto lg:max-w-[1500px] md:items-center md:flex md:px-8">
-        <div className="flex items-center justify-between py-3 md:py-2 md:block">
+        <div className="flex items-center justify-between py-3 md:py-2 md:block ">
           {/* LOGO */}
           <Image
             src="/logo.png"

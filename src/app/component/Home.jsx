@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-    <div className="relative h-screen w-screen flex items-center justify-center">
-      <div className="absolute flex flex-col items-center justify-center">
+    <div className="relative h-screen w-screen flex items-center justify-center ">
+      <div className="absolute flex flex-col items-center justify-center ">
         <Image
           src="/background3.png"
           width={500}
@@ -35,13 +35,13 @@ const Home = () => {
           </div>
           <div className=" flex flex-col items-center justify-center gap-2">
             <div className="flex items-center justify-center drop-shadow-2xl">
-              <div className=" cursor-pointer flex items-center justify-center hover:scale-110">
+              <div className=" cursor-pointer flex items-center justify-center hover:scale-110 ">
                 <Image
                   src="/fb.png"
                   width={50}
                   height={50}
                   alt="fb"
-                  className="shadow-2xl object-cover"
+                  className="shadow-2xl object-cover w-[40px] h-[40px] md:w-[60px] md:h-[60px] rounded-full "
                 />
               </div>
 
@@ -51,12 +51,12 @@ const Home = () => {
                   width={110}
                   height={110}
                   alt="insta"
-                  className="object-cover"
+                  className="object-cover w-[40px] h-[40px] md:w-[75px] md:h-[75px]"
                 />
               </div>
             </div>
             <Link href="#contact" className="scroll-smooth">
-              <button className="bg-green-700/20 border-gray-700/10 border-2 drop-shadow-2xl shadow-2xl rounded-xl p-2 font-extrabold w-[200px] h-[60px] cursor-pointer hover:scale-110 hover:bg-green-700/10">
+              <button className="bg-green-700/20 border-gray-700/10 border-2 drop-shadow-2xl shadow-2xl rounded-xl p-2 font-extrabold w-[150px] h-[50px] md:w-[200px] md:h-[60px] cursor-pointer hover:scale-110 hover:bg-green-700/10">
                 CONTACT
               </button>
             </Link>
