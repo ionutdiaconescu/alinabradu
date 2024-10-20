@@ -17,18 +17,19 @@ const Servicii = () => {
           </div>
           <div className="flex flex-col text-center items-center justify-center border-2 border-gray-800/10 shadow-2xl rounded-2xl">
             <h1 className="font-extrabold text-md md:text-2xl p-2">
-              IATA CU CE TE POT AJUTA
+              Ce intentionez...
             </h1>
-            <p className=" lg:w-[500px] w-[350px] font-semibold md:font-semibold p-5 md:p-10 text-sm lg:text-lg">
-              Te invat sa explorezi o calatorie personalizata de autocunoastere
-              si dezvoltare.Procesul incepe prin identificarea si
-              constientizarea obiectivelor tale, oferindu-ti un mediu sigur si
-              confidential pentru a explora si discuta deschis problemele tale
-              personale.Vei beneficia de suport emotional si ghidare in gasirea
-              resurselor si solutiilor proprii, intr-un dialog concentrat pe
-              incredere reciproca si respect.Te pot sprijini in gestionarea
-              stresului, luarea deciziilor si dezvoltarea abilitatilor de
-              rezolvare a problemelor care impiedica evolutia dorita de tine.
+            <p className=" lg:w-[700px] w-[350px] font-semibold md:font-semibold p-2 md:p-8 text-sm lg:text-lg">
+              Prin dialog te ajut să realizezi un mod de a trăi mai bun și de a
+              schimba ceea ce singur/ă nu poți. E ca și cum ai pătrunde într-o
+              grădină exotică fără puncte sigure de reper, fără criterii solide
+              de apreciere, de sens și scop, și riști să te rătăcești. Astfel,
+              ajungi să fii incapabil/ă să afli un răspuns la problema ta.
+              Consider că noi toți avem potențialul de a simți bucuria și
+              împlinirea în viață. Dacă ajungi la concluzia că ești blocat în
+              tipare de viață, convingeri restrictive sau că poți obține mai
+              mult de la tine, atunci este posibil ca acest proces terapeutic să
+              fie ceea ce ai nevoie.
             </p>
           </div>
           <div className="flex flex-col items-center justify-center">
@@ -182,16 +183,20 @@ const Servicii = () => {
             />
           </div>
           <div className="flex flex-col text-center items-center justify-center shadow-2xl rounded-xl border-2 border-gray-800/10">
-            <p className=" lg:w-[500px] w-[350px] font-semibold md:font-semibold p-5 md:p-10 text-sm lg:text-lg">
-              Pe masura ce progresam vei descoperii ca sedintele de consiliere
-              devin combustibilul de care ai nevoie pentru a te descoperii atat
-              pe tine dar mai ales emotiile si gandurile cu care te confrunti zi
-              de zi si care intr-un final vor devenii aliatul tau. Prin dialog
-              deschis si exercitii, vei dobandii abilitatile necesare pentru a
-              face schimbari pozitive in viata ta.Fiecare sedinta va fi adaptata
-              nevoilor tale, iar colaborarea noastra continua sa ofere sprijin
-              si indrumare pe intraga ta calatorie de autocunoastere si crestere
-              personala.
+            <p className=" lg:w-[700px] w-[350px] p-2 md:p-8 text-sm lg:text-xl font-semibold">
+              În calitate de psihoterapeut, combin cele mai noi strategii din
+              domeniu cu un stil cald și empatic, astfel încât să te ajut să-ți
+              descoperi punctele forte și să-ți atingi potențialul maxim. Dacă
+              ești curios să lucrăm împreună sau dorești să primești îndrumare
+              pentru a-ți descoperi resursele, ÎNDRĂZNEȘTE. Eu nu sunt
+              specialistă în viața ta, tu ești singurul expert! Eu nu fac decât
+              să găsesc, prin experiența și cunoștințele acumulate, abordarea
+              cea mai potrivită pentru situația ta. Și îți mai spun ceva... Nu
+              amâna! Nu timpul le rezolvă pe toate... el doar le amplifică...
+              Gândește-te că ai putea fi liber/ă și ai reuși să fii tu însuți
+              fără eforturi majore... doar vorbind... fiind conștient că doar
+              prin conștiinciozitate, seriozitate și implicare poți deschide
+              drumul vieții tale
             </p>
           </div>
           <div className="flex flex-col items-center justify-center">

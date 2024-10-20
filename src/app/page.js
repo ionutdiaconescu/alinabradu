@@ -7,8 +7,10 @@ import Tarife from "./component/Tarife";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between space-y-[50px] md:space-y-[100px]">
-      <Navbar />
-      <Hero />
+      <div>
+        <Navbar />
+        <Hero />
+      </div>
       <Servicii />
       <Tarife />
       {/* <GalerieFoto /> */}

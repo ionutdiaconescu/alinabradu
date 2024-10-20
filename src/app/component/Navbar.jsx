@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setNavbar(!navbar)}
-              className="p-2 text-green-400 rounded-md "
+              className=" text-green-500 rounded-full "
             >
               {navbar ? (
                 <IoCloseCircleSharp className="text-5xl " />
@@ -38,7 +38,7 @@ const Navbar = () => {
             navbar ? "p-10 md:p-0 block" : "hidden"
           }`}
         >
-          <ul className="font-extrabold md:flex md:items-center justify-end border-2 md:border-4 border-gray-700/20 border-b-green-400/30 shadow-2xl bg-green-500 md:bg-green-500/30 rounded-3xl">
+          <ul className="font-extrabold md:flex md:items-center justify-end border-2 md:border-4 border-gray-700/30 border-b-gray-700/30 shadow-2xl bg-green-500 md:bg-green-500/20 rounded-3xl">
             <li className="pb-4 pt-4 md:pb-2 md:pt-2 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-green-400 border-green-400 md:hover:text-black rounded-2xl">
               <Link href="#acasa" onClick={() => setNavbar(!navbar)}>
                 ACASA
