@@ -12,11 +12,12 @@ const Home = () => {
           alt="home-background"
           className="object-cover h-screen w-screen"
         />
+        <div className="w-full h-[15rem]  bg-gradient-to-t from-white absolute bottom-0"></div>
         <div
           id="home"
           className="flex flex-col md:flex-row items-center justify-center absolute top-[5rem] md:top-[10rem] gap-6"
         >
-          <div className=" rounded-2xl w-[20rem] md:w-[40rem] border-8 border-white/30 drop-shadow-2xl bg-[#b7c1b0] p-2 mt-[5rem] md:mt-0 md:p-10 max-w-[450px] md:max-w-[500px] md:space-y-[20px] text-center">
+          <div className=" rounded-2xl w-[20rem] md:w-[40rem] border-4 border-white/20 drop-shadow-2xl backdrop-blur-md bg-gray-300/30 p-2 mt-[5rem] md:mt-0 md:p-10 max-w-[450px] md:max-w-[500px] md:space-y-[20px] text-center">
             <h1 className="text-3xl text-center md:text-7xl md:text-start font-extrabold">
               Alina Bradu
             </h1>
@@ -56,7 +57,7 @@ const Home = () => {
               </div>
             </div>
             <Link href="#contact" className="scroll-smooth">
-              <button className="bg-green-700/20 border-gray-700/10 border-2 drop-shadow-2xl shadow-2xl rounded-xl p-2 font-extrabold w-[150px] h-[50px] md:w-[200px] md:h-[60px] cursor-pointer hover:scale-110 hover:bg-green-700/10">
+              <button className="bg-green-700/20 backdrop-blur-md border-gray-700/10 border-2 drop-shadow-2xl shadow-2xl rounded-xl p-2 font-extrabold w-[150px] h-[50px] md:w-[200px] md:h-[60px] cursor-pointer hover:scale-110 hover:bg-green-700/10">
                 CONTACT
               </button>
             </Link>

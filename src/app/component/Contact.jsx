@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <div
         id="contact"
-        className="bg-green-400 rounded-2xl border-4 border-gray-500/10 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-center  items-center justify-center"
+        className="bg-green-600/30 rounded-2xl border-4 border-gray-500/20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-center  items-center justify-center"
       >
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
