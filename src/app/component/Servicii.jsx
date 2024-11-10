@@ -1,4 +1,14 @@
 import React from "react";
+import { MdFamilyRestroom } from "react-icons/md";
+import { RiMentalHealthFill } from "react-icons/ri";
+import {
+  GiHeartBottle,
+  GiPalmTree,
+  GiStrong,
+  GiLoveMystery,
+} from "react-icons/gi";
+import { FaAngry } from "react-icons/fa";
+import { PiMaskSadFill } from "react-icons/pi";
 import Image from "next/image";
 import { FaPhoneVolume } from "react-icons/fa6";
 const Servicii = () => {
@@ -42,15 +52,10 @@ const Servicii = () => {
             />
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-[20px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[40px]">
           <div className="flex flex-col items-center justify-center space-y-1 rounded-3xl shadow-2xl border-4 border-white/20 bg-gray-300/30 backdrop-blur-md">
-            <Image
-              src="/familie.webp"
-              width={500}
-              height={500}
-              alt="family"
-              className="rounded-full h-[100px] w-[150px]"
-            />
+            <MdFamilyRestroom className="h-[5rem] w-[5rem]" />
+
             <h1 className="font-extrabold">Relatia de cuplu sau de familie</h1>
             <p className="w-[300px] text-center">
               O terapie care te va ajuta sa creezi o relatie mai profunda cu
@@ -58,13 +63,7 @@ const Servicii = () => {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-1 rounded-3xl shadow-2xl border-4 border-white/20 bg-gray-300/30 backdrop-blur-md">
-            <Image
-              src="/positive-img.png"
-              width={500}
-              height={500}
-              alt="family"
-              className="rounded-3xl h-[100px] w-[150px]"
-            />
+            <RiMentalHealthFill className="h-[5rem] w-[5rem]" />
             <h1 className="font-extrabold">O gandire sanatoasa si pozitiva</h1>
             <p className="w-[300px] text-center">
               “Ceea ce plantezi azi, vei culege in viitorul apropiat” Te voi
@@ -73,13 +72,7 @@ const Servicii = () => {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-1 rounded-3xl shadow-2xl border-4 border-white/20 bg-gray-300/30 backdrop-blur-md">
-            <Image
-              src="/heart-img.png"
-              width={500}
-              height={500}
-              alt="family"
-              className="rounded-full h-[100px] w-[150px]"
-            />
+            <GiHeartBottle className="h-[5rem] w-[5rem]" />
             <h1 className="font-extrabold">Sentimentele</h1>
             <p className="w-[300px] text-center">
               Vei atinge un alt nivel de a-ti intelege sentimentele, si de a le
@@ -87,26 +80,14 @@ const Servicii = () => {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-1 rounded-3xl shadow-2xl border-4 border-white/20 bg-gray-300/30 backdrop-blur-md">
-            <Image
-              src="/conflict-img.png"
-              width={500}
-              height={500}
-              alt="family"
-              className="rounded-3xl h-[100px] w-[100px]"
-            />
+            <FaAngry className="h-[5rem] w-[5rem]" />
             <h1 className="font-extrabold">Conflictele</h1>
             <p className="w-[300px] text-center">
               Gestioneaza conflictele prin cea mai buna maniera
             </p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-1 rounded-3xl shadow-2xl border-4 border-white/20 bg-gray-300/30 backdrop-blur-md">
-            <Image
-              src="/depresie-img.png"
-              width={500}
-              height={500}
-              alt="family"
-              className="rounded-3xl h-[100px] w-[150px]"
-            />
+            <PiMaskSadFill className="h-[5rem] w-[5rem]" />
             <h1 className="font-extrabold">Depresie</h1>
             <p className="w-[300px] text-center">
               Daca depresia te tine in loc, simti ca nu poti sa iesi la
@@ -114,13 +95,7 @@ const Servicii = () => {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-1 rounded-3xl shadow-2xl border-4 border-white/20 bg-gray-300/30 backdrop-blur-md">
-            <Image
-              src="/relax-img.png"
-              width={500}
-              height={500}
-              alt="family"
-              className="rounded-3xl h-[100px] w-[150px]"
-            />
+            <GiPalmTree className="h-[5rem] w-[5rem]" />
             <h1 className="font-extrabold">Relaxare</h1>
             <p className="w-[300px] text-center">
               Focuseaza-ti atentia pe calm si creste-ti nivelul de
@@ -128,13 +103,7 @@ const Servicii = () => {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-1 rounded-3xl shadow-2xl border-4 border-white/20 bg-gray-300/30 backdrop-blur-md">
-            <Image
-              src="/confidence-img.png"
-              width={500}
-              height={500}
-              alt="family"
-              className="rounded-3xl h-[100px] w-[150px]"
-            />
+            <GiStrong className="h-[5rem] w-[5rem]" />
             <h1 className="font-extrabold">Incredere de sine</h1>
             <p className="w-[300px] text-center">
               O terapie care te va ajuta sa creezi o relatie mai profunda cu
@@ -143,11 +112,11 @@ const Servicii = () => {
           </div>
           <div className="flex flex-col items-center justify-center space-y-1 rounded-3xl shadow-2xl border-4 border-white/20 bg-gray-300/30 backdrop-blur-md">
             <Image
-              src="/manipulare.png"
-              width={500}
-              height={500}
-              alt="family"
-              className="rounded-3xl h-[100px] w-[80px]"
+              src="/manipulate.png"
+              width={100}
+              height={100}
+              alt="Profile-img"
+              className="h-[7rem] w-[7rem] object-contain"
             />
             <h1 className="font-extrabold">
               Constientizare pentru a nu fi manipulat usor
@@ -158,13 +127,7 @@ const Servicii = () => {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-1 rounded-3xl shadow-2xl border-4 border-white/20 bg-gray-300/30 backdrop-blur-md">
-            <Image
-              src="/emotion-img.png"
-              width={500}
-              height={500}
-              alt="family"
-              className="rounded-3xl h-[100px] w-[150px]"
-            />
+            <GiLoveMystery className="h-[5rem] w-[5rem]" />
             <h1 className="font-extrabold">Disciplina emotionala</h1>
             <p className="w-[300px] text-center">
               O terapie care te va ajuta sa creezi o relatie mai profunda cu
@@ -173,7 +136,7 @@ const Servicii = () => {
           </div>
         </div>
         <div className="grid md:grid-cols-3 gap-3 mb-[20px] mt-[50px]  rounded-3xl">
-          <div className="flex flex-col items-center justify-center space-y-1">
+          <div className="flex flex-col items-center justify-center">
             <Image
               src="/mental-health-img.png"
               width={500}
@@ -211,8 +174,8 @@ const Servicii = () => {
         </div>
 
         {/* Cum începeți? */}
-        <div className="flex flex-col text-center items-center justify-center p-2 mt-10 shadow-2xl rounded-3xl space-y-[30px]">
-          <div className="flex flex-col items-center justify-center space-y-[20px] shadow-xl border-4 p-4 border-white/20 bg-gray-300/30 backdrop-blur-md rounded-2xl">
+        <div className="flex flex-col text-center items-center justify-center p-2 mt-10 shadow-3xl rounded-2xl space-y-[30px] bg-gray-300/30 backdrop-blur-md">
+          <div className="flex flex-col items-center justify-center space-y-[20px] shadow-xl border-4 p-4 border-white/20 bg-gray-300/10 backdrop-blur-md rounded-2xl">
             <h1 className="text-2xl md:text-3xl font-extrabold">
               Cum începeți?
             </h1>
@@ -251,7 +214,7 @@ const Servicii = () => {
                 className="h-[300px] w-[300px]"
               />
 
-              <div className="gap-2 flex flex-col justify-center items-center shadow-2xl rounded-2xl p-2 border-4 border-white/20 bg-gray-300/30 backdrop-blur-md">
+              <div className="gap-2 flex flex-col justify-center items-center shadow-2xl rounded-2xl p-2 border-4 border-white/20 bg-gray-300/10 backdrop-blur-md">
                 <h1 className="lg:text-3xl text-xl font-extrabold">
                   Programeaza o consultatie
                 </h1>
@@ -264,13 +227,13 @@ const Servicii = () => {
                 </p>
               </div>
               <div className="flex flex-col items-start justify-center space-y-[10px]">
-                <div className="flex gap-3 items-center justify-center shadow-2xl rounded-2xl border-2 bg-green-700/20 backdrop-blur-md border-gray-700/10 p-2 cursor-pointer">
+                <div className="flex gap-3 items-center justify-center shadow-2xl rounded-2xl border-2 bg-green-700/20 backdrop-blur-md border-gray-700/10 p-2 cursor-pointer hover:scale-105 transition-[3]">
                   <FaPhoneVolume className="text-4xl shadow-2xl" />
                   <h1 className="text-2xl font-extrabold shadow-2xl">
                     0724904894
                   </h1>
                 </div>
-                <div className="flex gap-3 items-center justify-center shadow-2xl rounded-2xl  p-2 bg-green-700/20 backdrop-blur-md border-gray-700/10 border-2">
+                <div className="flex gap-3 items-center justify-center shadow-2xl rounded-2xl hover:scale-105 transition-[3] p-2 bg-green-700/20 backdrop-blur-md border-gray-700/10 border-2">
                   <Image
                     src="/gmail.png"
                     width={500}

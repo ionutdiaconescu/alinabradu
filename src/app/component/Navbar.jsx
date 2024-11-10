@@ -39,17 +39,17 @@ const Navbar = () => {
           }`}
         >
           <ul className="font-extrabold md:flex md:items-center justify-end border-2 md:border-4 border-gray-500/30 border-b-gray-700/30 shadow-2xl bg-green-700/10 backdrop-blur-md md:bg-green-500/20 rounded-3xl">
-            <li className="pb-4 pt-4 md:pb-2 md:pt-2 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-green-500/50 border-gray-400/40 md:hover:text-black rounded-2xl">
+            <li className="pb-4 pt-4 md:pb-2 md:pt-2 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-green-500/50 transition-[4] border-gray-400/40 md:hover:text-black rounded-2xl">
               <Link href="#acasa" onClick={() => setNavbar(!navbar)}>
                 ACASA
               </Link>
             </li>
-            <li className="pb-4 pt-4 md:pb-2 md:pt-2 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-green-500/50 border-gray-400/40 md:hover:text-black rounded-2xl">
+            <li className="pb-4 pt-4 md:pb-2 md:pt-2 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-green-500/50 transition-[4]  border-gray-400/40 md:hover:text-black rounded-2xl">
               <Link href="#servicii" onClick={() => setNavbar(!navbar)}>
                 SERVICII
               </Link>
             </li>
-            <li className="pb-4 pt-4 md:pb-2 md:pt-2 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-green-500/50 border-gray-400/40 md:hover:text-black rounded-2xl">
+            <li className="pb-4 pt-4 md:pb-2 md:pt-2 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-green-500/50 transition-[4] border-gray-400/40 md:hover:text-black rounded-2xl">
               <Link href="#tarife" onClick={() => setNavbar(!navbar)}>
                 TARIFE
               </Link>

@@ -5,11 +5,11 @@ const Contact = () => {
     <>
       <div
         id="contact"
-        className="bg-green-600/30 rounded-2xl border-4 border-gray-500/20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-center  items-center justify-center"
+        className="bg-gray-400/20 backdrop-blur-md rounded-2xl border-4 border-gray-500/10 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-center  items-center justify-center"
       >
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          href=""
+          className="group rounded-lg border border-transparent px-5 py-4 hover:bg-green-500/40 transition-[4]"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -22,8 +22,7 @@ const Contact = () => {
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
+          className="group rounded-lg border border-transparent px-5 py-4 hover:bg-green-500/40 transition-[4]"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -36,8 +35,8 @@ const Contact = () => {
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          href=""
+          className="group rounded-lg border border-transparent px-5 py-4 hover:bg-green-500/40 transition-[4]"
           target="_blank"
           rel="noopener noreferrer"
         >
