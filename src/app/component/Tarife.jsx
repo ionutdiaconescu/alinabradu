@@ -7,22 +7,10 @@ const Tarife = () => {
         className="flex flex-col space-y-[5rem] items-center justify-around w-full h-full"
         id="tarife"
       >
-        <h1 className="text-center font-extrabold text-4xl bg-green-700/20 shadow-2xl rounded-2xl p-2 border-2 border-gray-500/20">
+        <h1 className="text-center font-extrabold text-2xl md:text-4xl bg-green-700/20 shadow-2xl rounded-2xl p-2 border-2 border-gray-500/20">
           Tarife servicii consiliere psihologică
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center md:justify-center gap-[30px] shadow-2xl md:p-4 rounded-3xl backdrop-blur-md bg-gray-400/20">
-          <div
-            class="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl"
-            aria-hidden="true"
-          >
-            <div class="mx-auto aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#9df3a5] to-[#9ee4c1] opacity-20"></div>
-          </div>
-          <div
-            class="absolute inset-x-0 -bottom-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl"
-            aria-hidden="true"
-          >
-            <div class="mx-auto aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#9df3a5] to-[#9ee4c1] opacity-20"></div>
-          </div>
           <div className="flex flex-col items-center justify-center hover:bg-gray-400/10 transition-[4]  text-lg bg-green-100/10 backdrop-blur-sm  rounded-3xl w-[400px] h-auto gap-4 p-2 shadow-2xl border-4 border-gray-300/30">
             {/* titlu */}
 

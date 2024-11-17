@@ -16,7 +16,7 @@ const Servicii = () => {
     <>
       <div className="flex flex-col items-center justify-center" id="servicii">
         <div className="grid md:grid-cols-3 gap-3 mb-[20px]  rounded-3xl">
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center mt-[4rem] md:mt-0">
             <Image
               src="/mental-health-img.png"
               width={500}
@@ -29,7 +29,7 @@ const Servicii = () => {
             <h1 className="font-extrabold text-md md:text-2xl p-2">
               Ce intentionez...
             </h1>
-            <p className=" lg:w-[500px] w-[350px] font-semibold md:font-semibold p-2 md:p-8 text-sm lg:text-lg">
+            <p className=" lg:w-[500px] w-[350px] font-semibold md:font-semibold p-1 text-sm lg:text-lg">
               Prin dialog te ajut să realizezi un mod de a trăi mai bun și de a
               schimba ceea ce singur/ă nu poți. E ca și cum ai pătrunde într-o
               grădină exotică fără puncte sigure de reper, fără criterii solide
@@ -135,7 +135,7 @@ const Servicii = () => {
             </p>
           </div>
         </div>
-        <div className="grid md:grid-cols-3 gap-3 mb-[20px] mt-[50px]  rounded-3xl">
+        <div className="grid md:grid-cols-3 gap-3 mb-[20px] mt-[2rem]  rounded-3xl">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/mental-health-img.png"
@@ -146,7 +146,7 @@ const Servicii = () => {
             />
           </div>
           <div className="flex flex-col text-center lg:w-[500px]  w-[350px] items-center justify-center shadow-2xl rounded-3xl bg-gray-300/30 border-2 border-white/20 backdrop-blur-md">
-            <p className=" lg:w-[500px] w-[350px] p-2 md:p-8 text-sm lg:text-xl rounded-3xl font-semibold">
+            <p className=" lg:w-[500px] w-[350px] p-1 text-sm lg:text-xl rounded-3xl font-semibold">
               În calitate de psihoterapeut, combin cele mai noi strategii din
               domeniu cu un stil cald și empatic, astfel încât să te ajut să-ți
               descoperi punctele forte și să-ți atingi potențialul maxim. Dacă
